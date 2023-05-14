@@ -1,4 +1,5 @@
 # Message-Encryption-in-C
+# ![Cipher](cipher.png)
 
 This is a C program that performs an XOR encryption of a text message.
 
