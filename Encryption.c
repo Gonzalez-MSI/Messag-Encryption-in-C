@@ -3,7 +3,7 @@
  !██╗  ██╗ ██████╗ ██████╗ 
  !╚██╗██╔╝██╔═══██╗██╔══██╗
   !╚███╔╝ ██║   ██║██████╔╝
-  !██╔██╗ ██║   ██║██╔══██╗
+  !██╔██╗ ██║   ██║██╔══██
  !██╔╝ ██╗╚██████╔╝██║  ██║
  !╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═╝      
  
@@ -154,6 +154,8 @@ int main(){
 
     printf(REDHB "Message Encryption" reset "\n");
     DASH_LINE;
+    
+
     for(i = 0; i < strlen(message) - 1; i++){
 
         encrypted_message[i] = message[i] ^ key[i%(strlen(key) - 1)];
